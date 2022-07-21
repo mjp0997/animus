@@ -83,6 +83,10 @@
    background-image: url('../images/dual-2.webp');
 }
 
+.bg-card {
+   background-color: #F1F1F1;
+}
+
 
 
 /* Cursors */
@@ -97,4 +101,16 @@
 
 .font-white {
    color: var(--white)!important;
+}
+
+
+
+/* Displays */
+
+.products-grid {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-auto-rows: 1fr;
+
+   gap: 3rem;
 }
