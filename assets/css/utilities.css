@@ -87,6 +87,10 @@
    background-color: #F1F1F1;
 }
 
+.collection-effect {
+   background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 100%);
+}
+
 
 
 /* Cursors */
@@ -113,4 +117,30 @@
    grid-auto-rows: 1fr;
 
    gap: 3rem;
+}
+
+
+
+/* Buttons */
+
+.collection-btn {
+   padding: 0.5rem 1rem;
+
+   color: var(--white);
+
+   transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.collection-btn:hover {
+   color: var(--black);
+   background-color: var(--white);
+}
+
+
+
+/* Paddings */
+
+.py-6 {
+   padding-top: 5rem;
+   padding-bottom: 5rem;
 }
