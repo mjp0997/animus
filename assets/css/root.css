@@ -1,0 +1,14 @@
+:root {
+   /* Fonts */
+   --main-font: 'Roboto Flex', sans-serif;
+
+   /* Colors */
+   --white: #EAECEF;
+
+   --black: #0B0E11;
+   --soft-black: #181A20;
+
+   --grey: #353535;
+   --dark-grey: #252525;
+   --light-grey: #ACACAC;
+}

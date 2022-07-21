@@ -1,0 +1,63 @@
+
+/* Images */
+
+.img-container {
+   display: flex;
+}
+
+.img-container > img {
+   width: 100%;
+}
+
+
+
+/* Sections */
+
+.full-section {
+   min-height: calc(100vh - 5.625rem);
+}
+
+
+
+/* Backgrounds */
+
+.bg-parallax {
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+
+   backdrop-filter: blur(1rem);
+
+   background-color: rgba(0, 0, 0, 0.80);
+   background-blend-mode: color-dodge;
+}
+
+.bg-img-section {
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   background-color: rgba(0, 0, 0, 0.40);
+   background-blend-mode: color-dodge;
+}
+
+.bg-img-1 {
+   background-image: url('../images/landing.webp');
+}
+
+
+
+/* Cursors */
+
+.cursor-pointer {
+   cursor: pointer;
+}
+
+
+
+/* Colors */
+
+.font-white {
+   color: var(--white)!important;
+}
