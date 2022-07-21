@@ -99,12 +99,18 @@
    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 100%);
 }
 
+.bg-black {
+   background-color: var(--black);
+}
+
 
 
 /* Cursors */
 
-.cursor-pointer {
-   cursor: pointer;
+.cursor-pointer,
+.cursor-pointer::after,
+.cursor-pointer::before {
+   cursor: pointer!important;
 }
 
 
@@ -144,6 +150,19 @@
    background-color: var(--white);
 }
 
+.boutique-btn {
+   padding: 0.5rem 1rem;
+
+   color: var(--black);
+   background-color: var(--white);
+
+   transition: background-color 0.3s ease-in-out;
+}
+
+.boutique-btn:hover {
+   background-color: #A1A1A1;
+}
+
 
 
 /* Paddings */
@@ -151,4 +170,36 @@
 .py-6 {
    padding-top: 5rem;
    padding-bottom: 5rem;
+}
+
+
+
+/* Links */
+
+.link-white {
+   color: var(--white);
+
+   transition: color 0.3s linear;
+}
+
+.link-white:hover {
+   color: #A1A1A1;
+}
+
+
+
+/* Custom elements */
+
+.top-btn {
+   position: fixed;
+   right: 2rem;
+   bottom: 2rem;
+
+   z-index: 4;
+}
+
+.top-btn > i {
+   font-size: 5rem;
+
+   color: var(--white);
 }
