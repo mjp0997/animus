@@ -21,6 +21,10 @@
    height: calc(100vh - 5.625rem);
 }
 
+.semi-section {
+   min-height: 60vh;
+}
+
 .dual-section-element {
    flex-basis: 50%;
 
@@ -43,7 +47,7 @@
 
    backdrop-filter: blur(1rem);
 
-   background-color: rgba(0, 0, 0, 0.80);
+   background-color: rgba(0, 0, 0, 0.60);
    background-blend-mode: color-dodge;
 }
 
@@ -58,6 +62,10 @@
 
 .bg-img-1 {
    background-image: url('../images/landing.webp');
+}
+
+.bg-img-2 {
+   background-image: url('../images/boutique.jpg');
 }
 
 .bg-dual-section {
